@@ -5,3 +5,25 @@
     padding: 0;
     box-sizing: border-box;
 }
+
+/* tag del body */
+
+body{
+    background-color: #000;
+}
+
+/* tag del main */
+
+main{
+    height: 93vh;
+    border: 1px solid white;
+    background-color: yellow;
+}
+
+/* tag del footer */
+
+footer{
+    height: calc(100vh - 93vh);
+    border: 1px solid red;
+    background-color: orange;
+}
