@@ -82,6 +82,7 @@ footer{
 
 #btn_left{
     margin-left: 10px;
+    color: #dcdcdc;
 }
 
 #btn_right{
@@ -91,22 +92,30 @@ footer{
 #btn_center{
     display: flex;
     flex-wrap: wrap;
+    color: #dcdcdc;
 }
 
 #mute, #stop{
     width: auto;
     height: 100%;
     margin-left: 10px;
-    color: #dcdcdc;
     cursor: pointer;
 }
 
 .fa-microphone, .fa-video{
 margin: 0 30px 5px 7px;
-font-size: 30px;
 
 }
 
 .fa-video{
     margin-left: 25px;
+}
+
+footer .fas:not(.fa-chevron-up){
+    font-size: 30px;
+    
+}
+
+#btn_center .fas{
+    margin: 0 20px;
 }
