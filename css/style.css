@@ -4,6 +4,7 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    font-family: sans-serif;
 }
 
 /* tag del body */
@@ -28,7 +29,6 @@ main{
     right: 10px;
     color: white;
     text-align: center;
-    font-family: sans-serif;
 }
 
 #speak{
@@ -77,10 +77,11 @@ footer{
 }
 
 #btn_left, #btn_center, #btn_right{
-    border: 1px solid white;
-    height: 100%;
-    width: 500px ;
     display: flex;
+}
+
+#btn_left{
+    margin-left: 10px;
 }
 
 #btn_right{
@@ -93,9 +94,19 @@ footer{
 }
 
 #mute, #stop{
-    background-color: #fff;
     width: auto;
     height: 100%;
     margin-left: 10px;
+    color: #dcdcdc;
+    cursor: pointer;
+}
 
+.fa-microphone, .fa-video{
+margin: 0 30px 5px 7px;
+font-size: 30px;
+
+}
+
+.fa-video{
+    margin-left: 25px;
 }
