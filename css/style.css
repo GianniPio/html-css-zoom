@@ -78,11 +78,24 @@ footer{
 
 #btn_left, #btn_center, #btn_right{
     border: 1px solid white;
-    height: 20px;
+    height: 100%;
     width: 500px ;
+    display: flex;
+}
+
+#btn_right{
+    background-color: #464749;
 }
 
 #btn_center{
     display: flex;
     flex-wrap: wrap;
+}
+
+#mute, #stop{
+    background-color: #fff;
+    width: auto;
+    height: 100%;
+    margin-left: 10px;
+
 }
