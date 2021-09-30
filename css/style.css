@@ -63,8 +63,38 @@ main{
 #left_arrow, #right_arrow, #foto{
     border: 1px solid white;
     height: 20px;
-    width: 500px ;
+    width: 500px;
+    color: white;
+    font-size: 20;
 }
+
+#left_arrow{
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    flex-direction: column;
+}
+
+#right_arrow{
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+    flex-direction: column;
+}
+
+#center .fas{
+    font-size: 70px;
+}
+
+#left_arrow .fas{
+    color: #7f7f7f;
+}
+
+#right_arrow .fas{
+    color: #2ebaff;
+}
+
+
 
 /* tag del footer */
 
